@@ -1,0 +1,38 @@
+lista02 = [[1,2,3],[4,5,6],[7,8,9]]
+type(lista02)
+
+list
+
+select = lista02[1]
+print(select)
+type(select)
+
+[4, 5, 6]
+list
+
+select = lista02[0][1]
+print(select)
+type(select)
+
+2
+int
+
+import random
+cidades = ['fortaleza','quixada','guarulhos','paracuru']
+escolhida = random.choice(cidades)
+print('A cidade é escolhida:',escolhida)
+
+A cidade é escolhida: guarulhos
+
+a = [1,2,3]
+a.append(15)
+print(a)
+
+[1, 2, 3, 15]
+
+b = [7,8,9]
+for i in b:
+    a.append(i)
+print(a)
+
+[1, 2, 3, 15, 7, 8, 9]
